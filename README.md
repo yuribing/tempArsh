@@ -1,3 +1,4 @@
 # Origin from David Moors in 2022
 ## Purpose for TCC Web Dev Syndicate Club website.# GitTeam1
+## For access with tokens, you need to creae your token. If you don't have one, or access denies, go to "Credential Manager" and remove the Github credential from window's creadials. Then sign-in by token the one you creat from the URL.
 https://github.com/settings/tokens
