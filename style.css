@@ -61,6 +61,10 @@ body {
   border-top: 0.25em solid #333;
 }
 
+
+
+
+
 .wrapper {
   margin: auto;
   width: 100%;
@@ -77,6 +81,8 @@ footer {
   width: 100%;
 }
 
+
+
 a {
   text-decoration: none;
   transition: color 0.25s;
@@ -88,7 +94,7 @@ a {
   font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
-  background: #ad0000;
+  background: #ad0c0c;
   color: #fff;
   border: 0;
   cursor: pointer;
@@ -121,13 +127,18 @@ nav h1 {
 }
 
 nav h1 a {
-  color: #ad0000;
+  color: white;
 }
 
 .nav-ul {
   display: flex;
   background-color: #ad0000;
-  padding-top: 1em;
+ 
+}
+
+.nav-ul:hover
+{
+ 
 }
 
 header li {
@@ -147,7 +158,11 @@ header .nav-ul a {
   color: #333;
 }
 header .nav-ul a:focus, header .nav-ul a:hover {
-  color: #ad0000;
+  color: white;
+  transition: 0.3s;
+  background-color:grey;
+  margin:0px;
+  
 }
 header .nav-ul a:active {
   color: #c70000;
@@ -401,7 +416,17 @@ footer {
   text-align: center;
   /* background: #262b2aa8; */
   margin-top: 1em;
+
+  z-index: 1000;
+  position:absolute;
+  bottom: 0%;
+height:100px;
+
 }
+
+/* makes the footer stay at the bottom*/
+
+
 
 footer .nav-ul {
   justify-content: center;
@@ -410,23 +435,34 @@ footer .nav-ul {
 
 footer li:not(:first-child) {
   margin-left: 0.75em;
-  margin-bottom: 0.75em;
+  margin-bottom: 1em;
+  
 }
 
 footer li:first-child a {
   color: #b27b7b;
 }
 
+
+
 footer a {
+  
   font-size: 1.25em;
   font-weight: bold;
   color: #df7777;
+
+
+
 }
 
 footer p {
   color: #b27b7b;
+  background-color:white;
+  padding:10px;
 }
 
 .copy {
   font-size: 0.85em;
+
+  
 }
