@@ -1,34 +1,40 @@
 html {
+/* Arsh... This is secondary.It's not from you. But I want to clean up this part. */
 	/* height: 100%; */
 	/* max-height: 600px; */
 	/* width: 1000px; */
 	/* background-color: hsla(200,40%,30%,.4); */
+/* Arsh...end */
 	background-image:
-	  url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'),
-	  url('https://assets.stickpng.com/images/580b585b2edbce24c47b26be.png'),
-	  url('/images/NW1.jpg'),
-	  url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+	url('https://assets.stickpng.com/images/580b585b2edbce24c47b26be.png'),
+	url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'),
+	url('https://assets.stickpng.com/images/580b585b2edbce24c47b26be.png'),
+	  url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png'),
+	  url('/images/NW1.jpg');
 	  /* 1.Shadow trees, 2.Glasses, 3.CloudsDown , 4.NW , 5.CloudsTop  */
 	background-repeat: repeat-x;
 	background-position: 
-	  0 0%,
-	  0 170%,
-	  0 50%,
-	  -80% 100%;
+		0 140%,
+		-55% 10%,
+		0 140%,
+		-5% 10%,
+		0 30%;
 	background-size: 
-	  2000px,
-	  70%,
-	  100%,
-	  90%;
+		25%,
+		1800px,
+		40%,
+		30%,
+		100%;
 	animation: 70s para linear;
-	}
+}
   
   @keyframes para {
 	100% {
 	  background-position: 
-		-5000px 20%,
-		-800px 95%,
-		/* 1000px 0%, */
-		400px 0;
+		10% 142%,
+		-500px 10%,
+		10% 142%,
+		80% -50%,
+		300px 30%;
 	  }
 	}
